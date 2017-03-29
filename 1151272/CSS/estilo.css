@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #E5E7E9;
+	color: #fff;
+}
+
+/*ENCABEZADO...............*/
+.encabezado{
+	width: 100%;
+	height: 170px;
+	margin: 0px 0px;
+	text-align: center;
+}
+.fondo{	
+	width: 100%;
+	height: 170px;
+	position: absolute;
+	margin: 0px 0px;
+}
+.logo_ccc{
+	width: 250px;
+	height: 100px;
+	position: relative;	
+	padding: 2% 5%;
+}
+.logo_ufps{
+	width: 350px;
+	height: 100px;
+	padding: 2% 5%;
+	position: relative;
+}
+.logo_appsco{
+	width: 220px;
+	height: 80px;
+	padding: 3% 5%;
+	position: relative;
+}
+.menu{
+	margin: 0px 0px;
+	width: 100%;
+	background: #3E0052;
+	list-style: none;
+	text-align: right;	
+}
+.menu li{
+	display: inline-block;
+	padding: 20px 10px;
+}
+.menu li a{
+	font-size: 150%;
+	font: arial;
+	color: #fff;
+	font-family: 'Patua One', cursive;
+}
+.menu li a:link{
+	text-decoration:none;   
+}
+.menu li a:hover{
+	color: #000;
+}
+/*---------------------------------------*/
+
+/*MAIN-----------------------------------*/
+.main{
+	margin: 3% 15%;
+}
+.main article{
+	margin: 3% 3%;
+	text-align: center;
+}
+.main h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	position: relative;
+	padding: 18px 0px;
+}
+.main p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;	
+	position: relative;
+	padding: 5px 10px;
+	text-align: justify;
+}
+/*-----------------------------------------*/
+
+/*INICIO-----------------------------------*/
+#titulo_inicio{
+	text-align: center;
+	padding: 0px 0px;
+}
+.articulo_inicio{
+	background: #E5E7E9;
+	margin: 3% 3%;
+	padding: 1%;
+	color: #34495E;
+}
+.articulo_inicio article{
+	background: #E5E7E9;
+}
+/*-----------------------------------------*/
+
+/*QUIENES SOMOS----------------------------*/
+.que_es_appsco{
+	background-image: url("../Imagenes/fondo_que_es_appsco.png");
+}
+.que_es_ufps{
+	background-image: url("../Imagenes/fondo_que_es_ufps.jpg");
+}
+.que_es_ccc{
+	background-image: url("../Imagenes/fondo_que_es_ccc.png");
+}
+.asesorias{
+	background: #EC7A4C;
+	padding: 5px 5px;
+}
+.asesorias p{
+	background: #3E0052;
+	margin: 5px 5px;
+	padding: 5px 5px;
+}
+.pag_sig_equipo a{
+	color: #F5170C;
+	text-align: left;
+}
+.pag_sig_equipo a:link{
+	text-decoration:none;
+}
+/*----------------------------------------*/
+
+/*EQUIPO----------------------------------*/
+.intro_pag_equipo{
+	background-image: url("../Imagenes/fondo_equipo.jpg");	
+}
+.mentor{
+	background: #B3B6B7;
+	padding: 5px 0px;	
+}
+.mentor img{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.mentor p{
+	padding: 0px 5px;
+}
+.mentor{
+	background: #EC7A4C;
+}
+
+/*EMPRENDIMIENTOS-----------------------*/
+.articulo_empre{
+	background: #EC7A4C;
+	padding: 5px 0px;
+}
+.articulo_empre img{
+	width: 200px;
+	height: 200px;
+}
+/*--------------------------------------*/
+
+/*NOTICIAS-----------------------*/
+.articulo_noticia{
+	background: #EC7A4C;
+	padding: 5px 0px;
+}
+.articulo_noticia img{
+	width: 350px;
+	height: 200px;
+}
+/*--------------------------------------*/
+
+/*ALIADOS PAG-----------------------*/
+.articulo_aliado{
+	background: #EC7A4C;
+	padding: 5px 0px;
+}
+.articulo_aliado img{
+	width: 250px;
+	height: 60px;
+}
+/*--------------------------------------*/
+
+/*CONTACTO-------------------------------*/
+form{
+	width: 700px;
+	margin: auto;
+	background: #EC7A4C;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.cajaForm{
+	padding: 5% 5%;
+}
+
+.h2Form{
+	color: #fff;
+	text-align: center;
+	margin-top: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+.cmb{
+	background: #B3B6B7;
+	color: #fff;
+	padding: 10px 40px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+#boton{
+	background: #B3B6B7;
+	color: #fff;
+	padding: 20px;
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+
+/*------------------------------------------*/
+
+/*REDES SOCIALES-------------------------*/
+.redesSociales{
+	width: 100%;
+	background: #B3B6B7;
+	text-align: center;
+	list-style: none;
+}
+.redesSociales p{
+	padding: 10px;
+	font-family: 'Patua One', cursive;
+	font-size: 30px;
+	color: #fff;
+} 
+.redesSociales li{
+	display: inline-block;
+	padding: 10px 50px;
+}
+.redesSociales li a img{
+	width: 48px;
+	height: 48px;
+}
+/*------------------------------------------*/
+
+/*ALIADOS-----------------------------------*/
+.aliados{
+	background: #EC7A4C;
+	width: 100%;
+	text-align: center;
+	list-style: none;
+}
+.aliados p{
+	padding: 10px;
+	font-family: 'Patua One', cursive;
+	font-size: 30px;
+	color: #fff;
+}
+.aliados li{
+	display: inline-block;
+	padding: 10px 8px;
+}
+.aliados li a:link{
+	text-decoration:none;
+}
+.aliados li a img{
+	width: 250px;
+	height: 60px;
+}
+/*------------------------------------*/
+
+/*FOOTER------------------------------*/
+footer p{
+	text-align: center;
+	padding: 20px;
+	color: #000;
+}
+footer p a:link{
+	text-decoration:none;
+
+}
+footer p a{
+	color: #000;
+}
+/*------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
