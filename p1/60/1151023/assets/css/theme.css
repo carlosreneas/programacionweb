@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'acherus';
+    src: url('../fonts/acherus_grotesque_-_regular-webfont.woff2') format('woff2'), url('../fonts/acherus_grotesque_-_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'acherus', Fallback, sans-serif;
+}
+
+.back-primary {
+    background: rgba(75, 136, 162, 1);
+}
+
+.back-secondary {
+    background: rgba(37, 38, 39, 1);
+}
+
+.back-white {
+    background: #ffffff;
+}
+
+.back-light-gray {
+    background: #f9f9fa;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.no-bold {
+    font-weight: normal;
+}
+
+header nav ul li {
+    font-weight: bold;
+}
+
+header nav ul li:hover {
+    color: rgba(187, 10, 33, 1);
+}
+
+header nav ul li.active {
+    color: rgba(187, 10, 33, 1);
+}
+
+footer * {
+    color: #656565
+}
+
+.border-bottom-semiwhite {
+    border-bottom: 1px solid #656565;
+}
+
+.no-slider {
+    background: url('../img/slider/b1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+.no-slider .overlay {
+    background: rgba(169, 164, 142, .8);
+}
+
+.manito {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+form .form-group input {
+        border: 1px solid rgba(0,0,0,.3);
+}
+
+form .form-group select {
+    background: white;
+}
+form #message {
+    background: white;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 3px;
+    padding: 2px;
+}

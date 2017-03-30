@@ -1,0 +1,342 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.titulo{
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+}
+.contenido{
+	width: 100%;
+	height: 100%;
+	background-image: url(img/banner.png);
+	background-size: 100%;
+}
+/*-------------------------------MENU----------------------------*/
+header{
+	width: 100%;
+}
+.menu{
+	background-color: black;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.menu li a{
+	width: 120px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	border-right: 1px solid #fff; 
+}
+.menu li a:hover{
+	background-color: #434343;
+}
+#principal > li{
+	text-align: center;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+}
+.menu li:hover>ul{
+	display: block;
+}
+.menu li ul li a{
+	width: 240px;
+}
+/*------------------------------FOOTER---------------------------*/
+footer h2{
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+}
+#mintic{
+	width: 164px;
+	height: 50px;
+}
+#vivedigital{
+	width: 159px;
+	height: 50px;
+}
+#logo{
+	width: 165px;
+	height: 50px;
+}
+#colciencias{
+	width: 193px;
+	height: 50px;
+}
+#todos{
+	width: 117px;
+	height: 50px;
+}
+.logos{
+	text-align: center;
+}
+.logos img{
+	margin-right: 20px;
+}
+.redes_sociales{
+    text-align: center;
+}
+.redes_sociales img{
+	margin-right: 20px;
+}
+.derechos{
+	font-family: monospace;
+	text-align: center;
+	background-color: #d3d3d3;
+}
+/*----------------------------INICIO-------------------------*/
+.inicio{
+	width: 70%;
+	height: 180vh;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: auto;
+	text-align: justify;
+	font-family: Helvetica;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.figure{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+/*----------------------------QUIENES SOMOS-------------------------*/
+.quienes_somos{
+	width: 70%;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: auto;
+	text-align: justify;
+	font-family: 'Droid Sans', sans-serif;
+	padding-top: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+/*----------------------------EQUIPO-------------------------*/
+.equipo{
+	width: 70%;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: auto;
+	text-align: justify;
+	font-family: 'Droid Sans', sans-serif;
+	padding-top: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.img-perfil{
+	width: 250px;
+	height: 250px;
+}
+.text{
+	margin: 50px;
+}
+
+/*-------------------------EMPRENDIMIENTOS-------------------------*/
+.emprendimientos{
+	font-family: sans-serif;
+	width: 215px;
+	background: yellow;
+	margin: auto;
+}
+#p1 , #p2, #p3{
+	display: none;
+}
+.nav-emprend ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.nav-emprend li{
+	display: block;
+	padding: 0px 10px;
+	color: #000;
+	font-family: arial;
+	border: 1px solid #000;
+	text-align: center;
+}
+.nav-emprend li:hover{
+	background: rgba(0,0,0,0.3);
+}
+#p1~#luada{
+	display: none;
+	overflow: hidden;
+}
+#p1:checked~#luada{
+	display: block;
+}
+#p2~#sewa{
+	display: none;
+	overflow: hidden;
+}
+#p2:checked~#sewa{
+	display: block;
+}
+#p3~#proceder{
+	display: none;
+	overflow: hidden;
+}
+#p3:checked~#proceder{
+	display: block;
+}
+.content h2{
+	text-align: center;
+}
+.content{
+	width: 70%;
+	margin: auto;
+	text-align: justify;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	border-radius: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+.contenido section{
+	margin-top: 50px;
+}
+.logo-emprend{
+	text-align: center;
+}
+.logo-emprend img{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 250px;
+	height: 250px;
+}
+.proyectos{
+	width: 320px;
+	height: 211px;
+}
+.flex-emprend{
+	display: flex;
+}
+.texto{
+	padding: 30px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
+/*----------------------------NOTICIAS-------------------------*/
+.noticias{
+	width: 70%;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: auto;
+	text-align: justify;
+	font-family: 'Cabin', sans-serif;
+	padding-top: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.img-noticia{
+	width: 400px;
+	height: 250px;
+}
+.text{
+	margin: 30px;
+}
+/*----------------------------NOTICIA 1-------------------------*/
+.flex{
+	display: flex;
+}
+.noticia-info{
+	width: 80%;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 50px;
+	margin: 50px;
+	font-family: 'Cabin', sans-serif;
+}
+.noticias-recientes{
+	width: 20%;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: auto;
+	text-align: justify;
+	font-family: 'Cabin', sans-serif;
+	padding-top: 15px;
+	padding: 50px;
+	margin: 50px;
+}
+.img-noticia{
+	width: 480px;
+	height: 318px;
+	text-align: center;
+}
+.noticia-info p{
+	text-align: justify;
+}
+.noticia-info h2, h3{
+	color: purple;
+}
+
+/*----------------------------ALIADOS-------------------------*/
+.aliados{
+	width: 70%;
+	background-color: #f5f6f5;
+	margin: auto;
+	text-align: justify;
+	font-family: 'Droid Sans', sans-serif;
+	padding-top: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.aliados-flex{
+	display: flex;
+	padding: 30px;
+	text-align: center;
+}
+.aliado-object{
+	width: 100%;
+}
+.aliado-object h2{
+	color: purple;
+}
+
+/*----------------------------CONTACTO-------------------------*/
+form{
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+input, textarea, select{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#btn-enviar{
+	background-color: yellow;
+	color: black;
+	font-size: 20px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding: 20px;
+}
+#btn-enviar:hover{
+	cursor: pointer;
+	background-color: rgba(78,148,171,0.8);
+}

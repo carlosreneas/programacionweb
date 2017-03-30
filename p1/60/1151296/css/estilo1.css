@@ -1,0 +1,35 @@
+
+
+header{
+	width: 900px;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav{
+	width: 900px;
+	margin: auto;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+ nav a:hover{
+	background: #cccccc;
+	border-radius: 50px;
+}
+
+section{
+	width: 900px;
+	margin: auto;
+}
+ .pp{
+	text-align: center;
+	margin: auto;
+}

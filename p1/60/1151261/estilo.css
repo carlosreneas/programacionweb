@@ -1,0 +1,125 @@
+<link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
+body{ margin:0; padding: 0;font-size: 12px; font-family: Helvetica,Arial,sans-serif;
+	color: #666; background: #f2f2f2; font-size: 1em;line-height: 1.5em;
+	padding-top: 10px;}
+header{ background-color: #ddd; height: 120px; width: 100%;}
+nav{ float: right; background-color: #336699; display: block; width: 100%; }
+nav span{line-height: 40px; margin-left: 10px; color: black;}
+ nav ul{margin:0; padding: 0; list-style: none; padding-right: 20px; float: right;}
+ nav ul li{display:block;
+float:left;
+padding:0 10px;
+}
+#subQu_1 {display: none;}
+#subQu_2 {display: none;}
+#subQu_3 {display: none;}
+nav ul li>a{text-decoration:none;
+color: black;}
+nav ul li>a:hover{background: #0b76a6; border-left: 10px; border-color: white;}
+
+h1{ cursive; text-align: center;}
+article{ margin: 10px; background-color: blue; }
+article p{margin: 5px;}
+
+.logo{height: 120px; padding-left: 20px;}
+.logo img{height: 120px;}
+.main{min-height: 200px;background-color: #dfdfdf;/**/}
+.main article picture{ width:100%; display: block;text-align: center;margin: auto; }
+.main article picture img{margin: auto;}
+
+.content{width: 80%;margin: 0 auto;}
+footer {background: #ddd; text-align: center; padding: 20px; margin-top: 40px;
+clear: both;}
+section img.redd{
+	width: 100px;
+	height: 80px;
+	margin: 2%;
+}
+nav.apoyo{
+	background-color: peru;
+}
+nav.redes{
+	background-color: #2157d9
+}
+nav.¿quienes?{
+	background-color: purple;
+	text-decoration-color: brown;
+}
+nav.personalequipo{
+	background-color: gray;
+	text-align-last: left;
+	margin-left: 0;
+}
+section ul li img{
+	width: 180px;
+	height: 180px;
+}
+section ul.equipo2{
+	list-style: none;
+}
+
+section ul li.equipo2{
+	list-style: none;
+}
+section nav a img.app{
+	width: 180px;
+	height: 180px;
+	float: left;
+
+}
+
+section nav img.api{
+	margin: 0 auto;
+	text-align: center;
+	width: 130px;
+	height: 130px;
+}
+
+#ccenter{
+	margin: 0 auto;
+	text-align: center;
+}
+.center{
+	margin: 0 auto;
+	text-align: center;
+}
+
+section div.left{
+    float: center;
+    margin: 0 auto;
+    display:inline-block;
+}
+section div.right{
+    float: center;
+    margin: 0 auto;
+
+    display:inline-block;
+}
+section div.center{
+	float: center;
+	margin: 0 auto;
+	font-size: 16px;
+
+
+}
+section div img{
+	
+	width: 350px;
+	height: 350px;
+
+
+}
+section div h6.titulont1{
+	font-size: 15px;
+}
+section div h6 img{
+    width: 200px;
+	height: 200px;
+	float: left;	
+}
+section h6.titleinfo1{
+	float: center;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+}

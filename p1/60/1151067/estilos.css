@@ -1,0 +1,208 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ccc;
+    background: #f2f2f2;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 80px;
+}
+
+header{
+    background: #BDB76B;
+    color: white;
+    height: 130px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+
+}
+
+.division figure{
+  height: 100px;
+	width: 105px;
+	float: left;
+}
+
+.division figure>img{
+	width: 100%;
+  height: 100%;
+}
+
+.navegacion{
+	float: right;
+  margin: 20px;
+
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 40px;
+  font-size: 20px;
+  color:#636;
+}
+
+.menu>li{
+  float: left;
+  text-align:center;
+  line-height: 80px;
+  display: inline-block;
+}
+.menu li>a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    background-color: #BDB76B;
+    min-width: 80px;
+}
+
+.menu li>a:hover {
+	border-radius: 50px;
+    background: #FFEFD5;
+
+}
+.menu>li>ul {
+    display: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu>li:hover>ul {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+.content{
+	.margin-top: 160px;
+	height: 400px;
+	margin: 75px;
+	padding: 20px;
+	background-color:#FFEFD5;
+	border-radius: 50px;
+  }
+
+.content div>h1{
+  font-size: 30px;
+  color: #006;
+  text-align: center;
+
+}
+.content div>p{
+  color: #363;
+}
+.content div >ul{
+  color: #363;
+}
+.content div>figure{
+  border-color: #000;
+  text-align: center;
+}
+.codaltec{
+  text-align: center;
+}
+.codaltec a{
+  text-decoration: none;
+}
+
+
+
+.ocultar{
+	display: none;
+}
+.inicio:target{
+	display: block;
+
+}
+.quienes:target{
+	display: block;
+}
+
+.emprendimientos:target{
+	display: block;
+}
+.noticias:target{
+	display: block;
+}
+.aliados:target{
+	display: block;
+}
+.contacto:target{
+	display: block;
+}
+.pie{
+    font-family: cursive;
+    text-decoration: none;
+    background: #BDB76B;
+    height: 35px;
+    width: 100%;
+    left: 0;
+    padding: auto;
+    text-align: center; 
+}
+.pie p >a{
+  text-decoration: none;
+  color:#636;
+
+}
+
+.divRedes{
+  position: center;
+  text-align: center;
+}
+
+.divI{
+  position: center;
+  text-align: center;
+
+}
+
+.enlinea table{
+  padding: 5px;
+font-size: 16px;
+background-color: #83aec0;
+width: 100%;
+border-radius: 15px;
+}
+
+.enlinea th {
+background-image: url(fondo_tr02a.png);
+background-position: left top;
+font-size: 18px;
+font-weight:bold;
+background-color: #fdfdf1;
+background-repeat: repeat-x;
+color: #990000;
+font-family: “Trebuchet MS”, Arial;
+text-align:left;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #EBE9BC;
+border-bottom-color: #EBE9BC;
+text-align: center;
+}
+.enlinea table tr th >p{
+  color:black;
+}
+.aliados table tr >th{
+  color: black;
+  text-align: center;
+}
+.aliados{
+  padding: 5px;
+font-size: 16px;
+background-color: #83aec0;
+width: 100%;
+border-radius: 50px;
+}
+
+

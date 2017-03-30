@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/estiloContact.css">
+	<meta charset="utf-8">
+	<title>Contacto</title>
+</head>
+<div class="pageContent">
+<body>
+	<header>
+		<img src="../images/banner.png">
+		<nav>
+		<ul class="menu">
+			<li><a href="index.html">Inicio</a></li>
+
+			<li class="dropdown">
+    		<a href="QuienesSomos.html" class="dropbtn">¿Quienes Somos?</a>
+    			<div class="dropdown-content">
+      				<a href="Equipo.html">Equipo</a>
+    			</div>
+  			</li>
+
+  			<li class="dropdown">
+    		<a href="emprendimientos.html" class="dropbtn">Emprendimientos</a>
+    			<div class="dropdown-content">
+      				<a href="infoEmprend.html">Información de Emprendimientos</a>
+    			</div>
+  			</li>
+
+  			<li class="dropdown">
+    		<a href="news.html" class="dropbtn">Noticias</a>
+    			<div class="dropdown-content">
+      				<a href="newsInfo.html">Más Información</a>
+    			</div>
+  			</li>
+			<li><a href="aliados.html" class="button">Aliados</a></li>
+			<li><a href="contact.html" class="button">Contacto</a></li>
+		</ul>
+		</nav>
+	</header>
+</div>
+
+<div class="flex-container">
+	
+<section id="texto">
+<article>
+<div class="flex-form">
+<form>
+<label>Cedula </label><input type="" name="" required maxlength="14"><br><br>
+<label>Nombre </label><input type="text" name="" required maxlength="30"><br><br>
+<label>Apellido </label><input type="" name="" required maxlength="30"><br><br>
+<label>Telefono </label><input type="" name="" required maxlength="10"><br><br>
+<label>Email </label><input type="email" name="email" required maxlength="50"><br><br>
+<label>Tipo </label>
+<select required>
+<option></option>
+<option>Petición</option>
+<option>Queja</option>
+<option>Reclamo</option>
+<option>Felicitación</option>
+</select><br><br>
+<textarea rows="4" cols="50" maxlength="500">
+</textarea><br><br>
+<input class="button" type="submit" value="Enviar"></input>
+</form>
+</div>
+</article>
+</section>
+		<div class="flex-info">
+		<h3>Formulario PQR</h3>
+			<p>Envie sus peticiones, quejas, reclamos o felicitaciones <br>llenando el formulario. Además de esto puede ver la <br> ubicación de la universidad donde esta el vive lab.
+			<div id="googleMap">
+			<script>
+      		function myMap() {
+			var mapProp= {
+    		center:new google.maps.LatLng(7.899101, -72.487618),
+    		zoom:15,
+			};
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+    		</script>
+				<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrlPh5-gIW9UD2EK-J3cGFkxDPH9TRISE&callback=myMap">
+    </script>
+			</div>
+		</div>
+	
+</div>
+<br><br><br>
+<footer id="pieDePagina">
+		<hr>
+			<a href="http://www.mintic.gov.co">
+			<img border="0" src="../images/mintic.png">
+			<a href="http://www.mintic.gov.co/portal/vivedigital/612/w3-channel.html">
+			<img border="0" src="../images/vivedigital.png">
+			<a href="https://apps.co">
+			<img border="0" src="../images/appsco.png">
+			<a href="http://www.colciencias.gov.co">
+			<img border="0" src="../images/colciencias.jpg">
+			<a href="http://www.gobiernobogota.gov.co">
+			<img border="0" src="../images/gobierno.png">
+			<a href="https://ww2.ufps.edu.co">
+			<img border="0" id="ufps" src="../images/UFPS.png">
+			<a href="http://www.cccucuta.org.co">
+			<img border="0" src="../images/camaracome.jpg">
+			<aside id="redes">
+			<a href="https://www.youtube.com/playlist?list=PLhTx9maDqE9K9r76ZkLUL5UDX3xxChJwM">
+			<img border="0" src="../images/icono-youtube.png">
+			<a href="https://www.facebook.com/AppsCoUnab">
+			<img border="0" id="facebook" src="../images/icono-facebook.gif">
+			<a href="https://twitter.com/AppsCoUNAB">
+			<img border="0" id="twitter" src="../images/icono-twitter.png">
+			<a href="https://www.instagram.com/appscounab/">
+			<img border="0" id="instagram" src="../images/icono-instagram.jpg">
+			</aside>
+			<hr>
+</footer>
+</body>
+</html>

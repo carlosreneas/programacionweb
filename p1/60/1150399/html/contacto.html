@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Descubrimiento de negocios basados en TI</title>
+		<!--Estilos css-->
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+		<!--Fuentes de google-->
+		<link href="https://fonts.googleapis.com/css?family=Monofett|Offside" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1>Contacto</h1>
+			<hr>
+			<nav>
+				<ul id="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="quienes.html">Quienes somos</a></li>
+					<li><a href="emprendimientos.html">Emprendimientos</a></li>
+					<li><a href="noticias.html">Noticias</a></li>
+					<li><a href="aliados.html">Aliados</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section id="contenido">
+			<div id="principal">
+				
+					<h3>Formulario <strong>PQR</strong></h3>
+
+					<form method="post" action="" id="formulario">
+						<table>
+							<tr>
+								<td><label for="cedula">Cédula</label></td>
+								<td><input type="text" name="cedula" id="cedula" class="datos" placeholder="1090xxxxxx" maxlength="14" required></span></td>
+							</tr>
+							<tr>
+								<td><label for="nombre">Nombre</label></td>
+								<td><input type="text" name="nombre" id="nombre" class="datos" placeholder="Francisco" maxlength="30" required></span></td>
+							</tr>
+							<tr>
+								<td><label for="apellido">Apellido</label></td>
+								<td><input type="text" name="apellido" id="apellido" class="datos" placeholder="Moreno" maxlength="30" required></span></td>
+							</tr>
+							<tr>
+								<td><label for="telefono">Teléfono</label></td>
+								<td><input type="text" name="telefono" id="telefono" class="datos" placeholder="5xxxxxx"></td>
+							</tr>
+							<tr>
+								<td><label for="correo">Email</label></td>
+								<td><input type="email" name="correo" id="correo" class="datos" placeholder="usuario@hotmail.com" required><span id="emailok"></span></td>
+							</tr>
+							<tr>
+								<td><label>Tipo</label></td>
+								<td>
+									<select id="tipo">
+										<option>Seleccione un valor</option>
+										<option>Peticion</option>
+										<option>Queja</option>
+										<option>Reclamo</option>
+										<option>Felicitación</option>	
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td><label>Mensaje</label></td>
+								<td><textarea id="mensaje" placeholder="Escribe su mensaje aquí...   Máximo 500 caracteres" maxlength="500"></textarea></td>
+							</tr>
+							<tr>
+								<td colspan="2"><input type="submit" name="enviar" value="Enviar" id="boton" onclick="validarEmail()"></td>
+							</tr>
+						</table>						
+					</form>
+				<hr>
+				<div id="redes">
+					<h3>Síguenos en redes sociales</h3>
+					<div>
+						<a href="http://facebook.com" target="_blanck"><img src="../imagenes/facebook.png"></a>
+						<a href="http://instagram.com" target="_blanck"><img src="../imagenes/instagram.png"></a>
+						<a href="http://youtube.com" target="_blanck"><img src="../imagenes/YouTube.png"></a>
+						<a href="http://twitter.com" target="_blanck"><img src="../imagenes/twitter.png"></a>
+						<a href="http://skype.com" target="_blanck"><img src="../imagenes/skype.png"></a>
+						<a href="http://plus.google.com/collections/featured" target="_blanck"><img src="../imagenes/google.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="pie">
+			<picture>
+				<a href="http://www.mintic.gov.co/" target="_blanck"><img alt="Ministerio TIC" src="../imagenes/minTic.png" class="grande"></a>
+				<a href="https://apps.co/" target="_blanck"><img alt="Apss.co" src="../imagenes/appsCo.png" class="grande"></a>
+				<a href="http://ufps.edu.co" target="_blanck" ><img alt="Universidad Francisco de Paula Santander" src="../imagenes/ufps.png" class="peque"></a>
+				<a href="http://www.cccucuta.org.co/" target="_blanck" ><img alt="Camara de Comercio de Cúcuta" src="../imagenes/camara.jpg" class="peque"></a>
+			</picture>	
+			<h3>Apps.co-UFPS-CCC/2017 Todos los derechos reservados</h3>
+		</footer>
+	</body>
+</html>

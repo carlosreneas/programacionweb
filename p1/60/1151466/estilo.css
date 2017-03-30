@@ -1,0 +1,402 @@
+
+.atras{
+	width: 100%;
+	height: 187px;
+
+
+}
+	.adelante{ 
+	width: 100%;
+	height: 187px;	
+	color: white;
+	display: block;	
+	border-right: 1px solid #fff:
+	left: 0;
+	top:0;
+	position: fixed;
+	overflow: hidden;
+	background: rgba(80,80,255,1);
+	margin -border:20px: 
+
+}
+
+
+.enlaceIzq{
+	/*position:fixed;*/
+	background-color: yellow;
+	width:100%;
+	/*float: left;*/
+	padding-right: 200px;
+	height: 100px;
+	max-height: 40px;
+	/*float: center;*/
+}
+
+.enlaceIzq ul{	
+	list-style: none;
+	padding: 0;
+	display: flex;
+	margin: 0;
+	
+}
+
+.enlaceIzq li a:hover{
+		cursor: pointer;
+		background: rgba(0,0,0,0.3);
+		border-radius: 50px;
+}
+
+.enlaceIzq ul li ul{
+	display: none;
+	text-align: center;
+	
+}
+.enlaceIzq ul li:hover ul{
+	display: block;
+
+}
+
+.enlaceIzq ul li ul{
+	background-color: yellow;
+	margin: 0;
+
+}
+
+.ocultar{
+	display: none;
+}
+
+.inicio:target{
+	display: block;
+}
+.Quienes:target{
+	display: block;
+}
+
+.Equipo:target{
+	display: block;
+}
+.emprendimiento:target{
+	display: block;
+}
+
+.informacionE:target{
+	display: block;
+}
+
+.Noticias:target{
+	display: block;
+}
+
+.MasInf:target{
+	display: block;
+}
+
+.Aliados:target{
+	display: block;
+}
+.contacto:target{
+	display: block;
+}
+
+.enlaceIzq li a{
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: red;
+	font-size:16px;
+	font-family: sans-serif;
+	line-height: normal;
+}
+
+.logo img{
+	height: 110px;
+	width: 130px;
+	float: left;
+	
+
+
+}
+
+.logo ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+	.pie_delante{
+	background: rgba(80,80,255,1);
+	width: 100%;
+	height: 140px;
+	bottom: 0;
+	position: fixed;
+	text-align: justify-all;
+	color: #FFF;
+	margin: 0;
+	border: 0;
+	padding: 4px;
+
+}
+
+
+.pie_atras{
+	width: 100%;
+	height: 180px;
+	margin: 0;
+	border: 0;
+	padding: 4px;
+
+}
+
+
+.content-img img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.pie ul{	
+	list-style: none;
+	display: flex;
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+}
+	
+
+
+.pie li:hover{
+		cursor: pointer;
+		background: rgba(0,0,0,0.3);
+}
+
+.pie li{	
+	
+	margin: 0;
+	border: 0;
+	padding: 0;	
+	width: 100%;
+	height:100%;
+	padding-left:8px;
+	padding-right: 8px;
+	border-left: 1px solid #fff;	
+
+}
+.pie a{
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+
+}
+.pie figure{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+.pie img{
+	width:150px;
+	height:60px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+
+}
+
+.pie ul li:nth-of-type(1){
+	border-left: none;
+}
+.pie{
+
+	margin: 0;
+	border: 0;
+	padding-top: 0;	
+	padding-left:10px;
+	padding-right:10px;
+
+}
+.Equipo {
+	text-align: center;
+	background-color: #F5FCFC;
+margin:80px;
+
+}
+
+.Equipo img{
+	border-radius:50px;
+
+}
+
+.Equipo  ul {	
+	text-decoration: none;
+
+
+}
+.Equipo  li {
+		list-style: none;
+
+}
+
+.Equipo img{
+	width:40%;
+	height:40%;
+
+}
+
+.Aliados {
+	text-align: center;
+	background-color: #F5FCFC;
+margin:80px;
+
+}
+
+.Aliados img{
+	border-radius:50px;
+
+}
+
+.Aliados  ul {	
+	text-decoration: none;
+
+
+}
+.Aliados  li {
+		list-style: none;
+
+}
+
+.Aliados img{
+	width:40%;
+	height:40%;
+
+}
+
+.Quienes {
+	
+	background-color: #F5FCFC;
+margin:80px;
+
+}
+
+.Quienes h1{
+	text-align: center;
+	
+
+}
+
+.Quienes div{
+	margin: 20px;
+
+}
+
+.inicio {
+	
+	background-color: #F5FCFC;
+   margin:80px;
+
+}
+
+.inicio h1{
+	text-align: center;
+	
+
+}
+
+.inicio div{
+	margin: 20px;
+
+}
+
+.contacto {
+	
+	background-color: #F5FCFC;
+   margin:80px;
+
+}
+
+.contacto h1{
+	text-align: center;
+	
+
+}
+
+.contacto div{
+	margin: 20px;
+
+}
+.contacto p{
+	margin: 20px;
+
+}
+
+.Noticias {
+	
+	background-color: #F5FCFC;
+   margin:80px;
+
+}
+
+.Noticias h1{
+	text-align: center;
+	
+
+}
+
+.Noticias div{
+	margin: 20px;
+
+}
+
+
+
+
+
+.redes{
+	margin: 0;
+	border: 0;
+}
+.redes ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	
+}
+
+.redes li:hover{
+		cursor: pointer;
+		background: rgba(0,0,0,0.3);
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+.contenido {
+	
+
+
+}
+.magin100{
+	margin-top: 200px; 
+
+}
+
+.wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
