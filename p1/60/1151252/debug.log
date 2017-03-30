@@ -1,0 +1,20 @@
+[0325/115528.357:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0325/115528.372:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0325/115528.372:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0325/115528.466:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured
+[0327/110404.754:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0327/110404.758:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0327/110404.758:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0327/110404.798:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured
+[0327/143429.406:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0327/143429.406:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0327/143429.406:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0327/143429.452:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured
+[0328/231541.349:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0328/231541.362:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0328/231541.363:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0328/231541.433:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured
+[0329/141224.368:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0329/141224.399:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0329/141224.399:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Acceso denegado. (0x5)
+[0329/141224.430:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured

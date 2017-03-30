@@ -1,0 +1,73 @@
+body { margin: 0; padding: 0; font-size: 12px; font-family: : helvetica, Arial , sans-serif;
+	color: #666; background : #f2f2f2; font-size: 1em; line-height: 1.5em;
+	padding-top: 10px;
+
+}
+
+header{
+	background-color: #ddd; height: 120px;
+}
+nav{
+	float: right; background-color:  #336699; display: block;width: 100%;
+}
+nav span {
+	line-height: 40px; margin-left: 10px; color: black;
+}
+nav ul {  list-style: none;
+	margin: 0; padding: 0; list-style: none; padding-right: 20px; float: right;
+
+}
+nav ul li {   list-style: none;
+display: inline;
+
+}
+
+nav ul li>a:hover  { background: #0b76a6; border-left: 10px; border-color:white;}
+
+footer {
+	background: #ddd; text-align: center; padding: 20px; margin-top: 40px; clear: both;
+}
+
+
+h1 {
+	font-family: "fuente de google";
+	src: url("https://www.google.com.co/webhp?hl=es-419&sa=X&ved=0ahUKEwikyNbqperSAhUESiYKHRDuAuwQPAgD") , cursive; text-align: center;
+}
+article{
+	margin: 10px; background-color: white;
+}
+
+article p {
+	margin: 5px;
+}
+aside p{
+	padding-right: 20px;
+	margin: 5px;
+}
+aside picture{
+
+	padding-right: 20px;
+          
+}
+
+.logo {
+	height: 120px; padding-left: 20px;
+}
+.logo img {
+	height: 120px;
+}
+.main{
+	min-height: 200px; background-color: #dfdfdf; 
+}
+.main article picture {
+	width: 100%; display: block; text-align: center ; margin: auto;
+}
+
+.main article picture img { margin: auto;}
+.main-r { width: 30%;  float : right ; margin-top: -600px }
+.content { width: 80%; margin: 0 auto; }
+.img-font {width: 100% }
+
+
+
+

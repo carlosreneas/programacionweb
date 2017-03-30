@@ -1,0 +1,187 @@
+header img{
+	height: 155px;
+}
+ .menu {
+        margin:0;
+        padding: 0;
+        list-style: none;
+        padding-right: 20px;
+}
+.menu>li{
+        float: left;
+        text-align:center;
+        line-height: 80px;
+        display: inline-block;
+        width: 16.66%;
+}
+.menu li>a {
+display: block;
+padding: 0 10px;
+text-decoration: none;
+background-color: #123456;
+color: white;
+min-width: 80px;
+}
+.menu li>a:hover {
+background: #0b76a6;
+}
+.menu>li>ul {
+display: none;
+text-decoration: none;
+list-style: none;
+}
+.menu>li:hover>ul {
+display: block;
+line-height: 40px;
+text-decoration: none;
+/*width: 350px;*/
+
+}
+section{
+	float: left;
+	/*@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');*/
+    font-family: 'Jim Nightshade', cursive;
+	font-size: 30px;
+	color: white;
+
+}
+section picture img{
+	float: left;
+	margin-top: 5%;
+	margin-left: 50px;
+}
+section article h1{
+	font-size: 50px;
+}
+section h1{
+	margin-left: 40%;
+}
+section article h2{
+	font-size: 35px;
+}
+section article {
+	margin-left: 300px;
+	margin-top: none;
+	color: white;
+}
+section form label{
+	font-size: 40px;
+}
+section form input[type="text"]{
+	font-size: 35px;
+	margin-left: 150px;
+}
+section form input[type="email"]{
+	font-size: 35px;
+	margin-left: 150px;
+}
+section form input[type="tel"]{
+	font-size: 35px;
+	margin-left: 150px;
+}
+section select{
+	font-size: 35px;
+	margin-left: 150px;
+}
+section textarea{
+	font-size: 35px;
+	margin-left:150px;
+}
+section form input[type="button"]{
+	font-size: 35px;
+	margin-left: 50%;
+}
+#ar1, #ar2, #ar3{
+    position: relative;
+    display: none;
+}
+.ar{
+    margin-top: -280px;
+    margin-left: 300px;
+}
+.im2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#fo{
+    width: 100%;
+}
+.im3{
+    margin-left: 0px;
+    margin-top: 0px;
+    width:500px;
+    height: 300px;
+    margin:30px;
+
+}
+#m1,#m2,#m3{
+    color: white;
+}
+.mostrar{
+    cursor: pointer;
+}
+#lee1{
+    color: white;
+}
+
+#l2{
+    color: white;
+}
+#le3{
+    color: white;
+}
+#main-content {
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    background-image: url(https://appsco-raid2.s3.amazonaws.com/cache/77/34/77346ca3994f055826bbec959b7d277f.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.im1{
+   margin-left: 8px;
+   margin-top: 50px;
+}
+.p1{
+    margin-left: 250px;
+    margin-top: -190px;
+    font-size: 38px;
+}
+.leer{
+    color:white;
+}
+
+footer{
+	margin-top: 100px;
+}
+footer img{
+	height: 70px;
+}
+.noti {
+    font-size: 15px;
+    margin-right: 500px;
+    margin-left: 5px;
+    border: 1px solid #333;
+    width: 100%;
+}
+.noti h1{
+ font-size: 20px;
+    margin: 0px;
+    margin-left: : 50px;   
+}
+.noti article p{
+    margin-left: 300px;
+}
+.noti img{
+    width: 200px;
+    border:1px solid #234;
+}
+section article a{
+    color: white
+}
+#div{
+    width: 100%;
+    height: 100%;
+    size: 20000px;
+}

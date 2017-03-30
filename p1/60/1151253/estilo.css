@@ -1,0 +1,169 @@
+html{
+	width: 1200px
+}
+body{
+	width: 1000px;
+	margin-left: 80px;
+}
+header{
+	font-size: 20px;
+	width: 1200px;
+	margin-left: 0px;
+	height: 250px;
+	
+}
+
+a{
+	text-decoration: none;
+
+}
+.logos1{
+	
+	display: block;
+	width: 400px;
+	margin-left: 430px;
+	margin-right: 0;
+	align-items: center;
+
+}
+
+
+.logos2{
+
+	margin-left: 15px;
+	margin-right: 0px;
+
+	
+}
+#lista1{
+	
+	float: left;
+ 	display: inline-block;
+ 	margin-right: 0px;
+ 	padding-left: 40px;
+ }
+
+ #lista1>li{
+              float: left;
+              text-align:center;
+              line-height: 40px;
+              display: inline-block;
+            }
+            #lista1 li>a {
+                display: block;
+                padding: 0 10px;
+                text-decoration: none;
+                
+                min-width: 40px;
+            }
+            
+                #lista1 li>a:hover {
+                    background: #0b76a6;
+                }
+    
+
+
+                #lista1>li>ul {
+                    display: none;
+                    text-decoration: none;
+                    list-style: none;
+                }
+
+                #lista1>li:hover>ul {
+                    display: block;
+                    line-height: 40px;
+                    text-decoration: none;
+                }
+ 
+#lista2{
+
+	float: right;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: 60px;
+	
+	
+	
+
+}
+#lista2>li{
+              float: left;
+              text-align:center;
+              line-height: 40px;
+              display: inline-block;
+            }
+            #lista2 li>a {
+                display: block;
+                
+                text-decoration: none;
+                min-width: 40px;
+            }
+            
+                #lista2 li>a:hover {
+                    background: #0b76a6;
+
+                }
+    
+
+
+                #lista2>li>ul {
+                    display: none;
+                    text-decoration: none;
+                    list-style: none;
+                }
+
+                #lista2>li:hover>ul {
+                    display: block;
+                    line-height: 40px;
+
+                    text-decoration: none;
+                }
+
+#izquierda{
+	
+	display: inline-block;
+	float: left;
+	padding-top: 250px;
+	padding-left: 80px; 
+	
+}
+#main{
+	
+	display: inline-block;
+	width: 800px;
+	padding: 0;
+
+}
+#main h4{
+	margin-bottom: 0px;
+}
+#derecha{
+	display: inline-block;
+	float: right;
+	padding-top: 250px;
+
+
+}
+
+#seccionuno{
+	width: 800px;
+	height: 100px;
+	margin-left: 22%;
+	margin-top: 5%;
+
+	
+}
+#redessociales li{
+ display: inline-block;
+
+}
+
+#redessociales li p{
+display: inline-block;
+float: right;
+}
+
+#secciondos figure{
+	margin-right: 0;
+	margin-left: 0;
+}

@@ -1,0 +1,326 @@
+body{
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-right: 50px;
+	background-color: #E6E6E6;
+}
+#app{
+	width: 600px;
+	height: 150px;/*280*/
+	float: left;
+	
+}
+
+#ufps{
+	width: 600px;
+	height: 75px;/*135*/
+	padding-left: 30px;
+	
+}
+#ccc{
+	width: 600px;
+	height: 75px;
+	padding-left: 30px;
+
+}
+
+#app-ini{
+    width: 600px;
+    height: 400px;/*280*/
+    float: left;
+    
+}
+
+#ufps-ini{
+    width: 500px;
+    height:200px;/*135*/
+    padding-left: 30px;
+    
+}
+#ccc-ini{
+    width: 500px;
+    height: 200px;
+    padding-left: 30px;
+
+}
+
+.contenido-ini{
+    height: 600px;
+    border: 8px ridge;
+}
+
+#titulo{
+    font-family: "Showcard Gothic";
+    font-size: 30px;
+    color: blue;
+
+}
+
+blockquote{
+    float: right;
+    font-family: "Kristen ITC";
+    font-size: 16px;
+}
+/*
+.nav{
+	float: left;
+	display: block;
+	width: 100%;
+	color: black;
+}*/
+#main-header {
+    background: #333;
+    color: white;
+    height: 80px;
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+   /* position: fixed; /*hace que se mantenga en una posicion fija*/
+}   
+    #main-header a {
+        color: white;
+    }
+    
+
+nav {
+    float: right;
+}
+.menu {
+margin: 0;
+padding: 0;
+list-style: none;
+padding-right: 20px;
+}
+
+.menu li {
+display: inline-block;
+line-height: 80px;
+}
+.menu>li{
+float: left;
+text-align:center;
+line-height: 80px;
+display: inline-block;
+}
+.menu li>a {
+display: block;
+padding: 0 10px;
+text-decoration: none;
+background-color: #333;
+min-width: 80px;
+}
+
+.menu li>a:hover {
+    background: #0b76a6;
+
+}
+
+
+
+.menu>li>ul {
+    display: none; /*me oculta la lista*/
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu>li:hover>ul {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+	
+#ali{
+	width: 170px;
+	height: 100px;
+	float: left;
+	
+}
+table{
+	vertical-align: center;
+	float: center;
+}
+.contenido{
+	border: 2px dotted;
+	height: 540px;
+	
+	
+}
+#general-impar{
+	width: 550px;
+	height: 200px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+h1{
+	text-align: center;
+
+}
+#general-par{
+	width: 550px;
+	height: 200px;
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+#perfil-impar{
+	float: left;
+	width: 150px;
+	height: 200px;
+	
+}
+#info-impar{
+	float: left;
+	height: 200px;
+	width: 400px;
+	
+}
+#perfil-par{
+	float: right;
+	width: 150px;
+	height: 200px;
+	
+}
+#info-par{
+	float: right;
+	height: 200px;
+	width: 400px;
+	
+}
+#listadef{
+/*#cont7 ul li {*/
+    width: 30% !important;
+    margin-right: 1%;
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 30px;
+    float: left;
+    padding-right: 10px;
+}
+.item{
+/*ul li.item{*/
+	background-color: #01DF3A;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 1.4rem;
+    padding: 15px;
+    width: 150px;
+    height: 130px;
+    text-align: center;
+    border-radius: 20px;
+    border-top: 10px solid #82FA58;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+p{
+	font-size: 20px;
+    margin-left: 20px;
+
+}
+
+#aliados{
+	width: 130px;
+	height: 130px;
+}
+
+#imgemp{
+    width: 550px;
+    height: 450px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#infoemp{
+    width: 600px;
+    height: 400px;
+    float: left;
+    padding-left: 20px;
+}
+
+#explicacion{
+    font-size: 18px;
+}
+
+#emp1{
+    height: 500px;
+    border: 2px dashed;
+}
+
+#emp2{
+    height: 500px;
+    border: 4px groove;
+}
+
+#emp3{
+    height: 600px;
+    border: 2px solid;
+}
+
+#contenido2{
+    height: 1000px;
+}
+
+#contacto{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 0px 100px;
+}
+#tabla{
+    float: left;
+    width: 200px;
+}
+
+#asunto{
+    height: 100px;
+}
+
+
+td{
+    padding-top: 10px;
+}
+
+#comparte{
+    margin-left: 200px;
+}
+
+.contenido-contacto{
+    height: 500px;
+    border: 4px double;
+}
+
+#btn{
+    margin:20px 100px;
+   
+}
+
+.contenido-aliados{
+    border: 8px solid;
+    height: 700px;
+    
+    
+}
+
+#imgnoti{
+    margin: 0px 300px;
+}
+
+#contenidon{
+    height: 1000px;
+}
+
+#main-content{
+    border: 8px outset;
+    border-color: #BEF781;
+}

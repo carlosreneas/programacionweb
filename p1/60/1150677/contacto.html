@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Primer Parcial(60%)</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+	<link href="StyleSheet.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="estilo2.css">
+
+</head>
+<body>
+
+<header>
+<section class="image">
+	<picture>
+		<img class="imgizq" src="Imagenes/app.jpeg">
+	</picture>
+	<picture>
+		<img class="imgderarriba" src="Imagenes/ufps.jpg">
+	</picture>
+	<picture>
+		<img class="imgderabajo" src="Imagenes/camara.jpg">
+	</picture>
+</section>
+<section>
+	<nav class="navegacion">
+		<ul> 
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="">Quienes Somos</a>
+					<ul><a href="equipo.html">Equipo</a></ul>
+					<ul><a href="que-es.html">Que es</a></ul>
+			</li>
+			<li><a href="emprendimientos.html">Emprendimientos</a></li>
+			<li><a href="noticias.html">Noticias</a></li>
+			<li><a href="aliados.html">Aliados</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+</section>
+</header>
+<div class="centrarformulario">
+<form class="contact_form" action="#" method="post" id="contact_form" runat="server" name="formulario">
+	<div> 
+		<ul> 
+			<li> 
+				 <span class="required_notification">* Datos requeridos</span> 
+			</li> 
+			<li> 
+				<label for="name">Nombre:</label> 
+				<input type="text" id="nombre" placeholder="Jheyner Rubio" required /> 
+			</li> 
+			<li> 
+				<label for="email">Email:</label> 
+				<input type="email" name="email" id="email" placeholder="info@gmail.com" required /> <span class="form_hint">Formato correcto: "nombre@something.com"</span> 
+			</li> 
+			<li> 
+				<label for="numeric">Numero Telefonico:</label> 
+				<input type="number" name="numeric" id="telefono" min="7" max=="10" placeholder="3213451542" required />
+
+			</li> 
+			<li> 
+				<label for="message">Mensaje:</label> 
+				<textarea name="message" cols="500" rows="6" id="mensaje" required></textarea> 
+			</li> 
+			<li> 
+				<!--<button class="submit" name="enviar" type="submit">Enviar mensaje</button>-->
+				<input type="button" name="enviar" value="Enviar">
+			</li> 
+		</ul> 
+	</div> 
+</form>
+</div>
+
+<footer class="piedepaginacontacto">
+	<section >
+
+		<a href= "https://www.facebook.com/AppsCoUnab" >
+	  		<i class="fa fa-facebook-official" aria-hidden="true"></i> AppsCoUnab
+		</a>
+		<a href= "https://twitter.com/AppsCoUNAB" >
+	 		 <i class="fa fa-twitter" aria-hidden="true"></i> AppsCoUNAB
+		</a>
+		<a href= "https://www.instagram.com/appscounab/" >
+	 		 <i class="fa fa-instagram" aria-hidden="true"></i> @appscounab
+		</a>
+
+	</section>
+	<br>
+	<section>
+		<img src="Imagenes/aliados.jpg">
+	</section>
+	<section>
+		<p>Apps.co – UFPS – CCC / 2017 Todos los derechos reservados</p> 
+	</section>
+</footer>
+
+<script src="scripts.js"></script>
+
+</body>
+
+
+
+</html>

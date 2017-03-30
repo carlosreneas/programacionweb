@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Segundo Parcial</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<script type="text/javascript" src="../js/script.js"></script>
+</head>
+<body>
+	<header>
+
+ 		<div class="alianzas">
+			<img id="app"src="https://appsco-raid2.s3.amazonaws.com/cache/60/ef/60efb4eba1054f5bc28ddbddfbf04dbb.png">
+			<img id="ufps" src="https://ww2.ufps.edu.co/public/imagenes/template/header/logo_ufps.png">
+			<img id="ccc"src="http://www.cccucuta.org.co/imagenes//uploads/secc_ac26913a2a67ad1ca455a167cec22fe4.jpg">
+		</div>
+		
+	</header>
+	<div id="main-header">
+		<nav>
+	       <ul class="menu">
+	            <li><a href="index.html">Inicio</a></li>
+	            <li><a href="#">¿Quiénes Somos?</a>
+		            <ul>
+		                <li><a href="definicion.html">¿Qué es?</a></li>
+		                <li><a href="equipo.html">Equipo</a></li>
+		            </ul>
+	            </li>
+	            <li><a href="emprendimiento.html">Emprendimientos</a></li>
+	            	
+	            <li><a href="noticias.html">Noticias</a></li>
+	            <li><a href="aliados.html">Aliados</a></li>
+	            <li><a href="contacto.html">Contacto</a></li>
+	        </ul>
+	    </nav><!-- / nav -->
+	</div>
+	<div class="contenido-contacto">
+		<h1>Contacto</h1>
+		<div id="comparte">Comparte tus ideas de negocio con nosotros, forma parte de esta gran revolución digital, y haz realidad tu proyecto de vida.</div>
+		<img id="contacto" src="http://hotelsanjuan.es/wp-content/uploads/contact.png">
+		<div id="tabla">
+			<table>
+				<tr id="fila">
+					<td>Nombre:</td>
+					<td><input id="nombre" type="text" required></td>
+				</tr>
+				<tr id="fila">
+					<td>Apellido:</td>
+					<td><input id="apellido" type="text" required></td>
+				</tr>
+				<tr id="fila">
+					<td>Cedula:</td>
+					<td><input id="cedula" type="text" required></td>
+				</tr>
+				<tr id="fila">
+					<td>Telefono:</td>
+					<td><input id="telefono" type="text" required></td>
+				</tr>
+				<tr id="fila">
+					<td>E-mail:</td>
+					<td><input id="email" type="email"></td>
+				</tr>
+				<tr id="fila">
+					<td>Tipo:</td>
+					<td><select id="cmb" name="tipo">
+						<option value="cb0">Seleccione...</option>
+	  					<option value="cb1">Petición</option>
+	  					<option value="cb2">Queja</option>
+	  					<option value="cb3">Reclamo</option>
+	  					<option value="cb4">Sugerencia</option>
+	  					<option value="cb5">Felicitacion</option>
+					</select></td>
+				</tr>
+				<tr id="fila">
+					<td>Asunto:</td>
+					<td><input id="asunto" type="text" required></td>
+				</tr>
+			</table>
+			<a href="javascript:validarFormulario()"><input id="btn" type="button" value="Enviar"></a>
+		</div>	
+		
+
+    
+	</div>
+	<footer>
+		<a target="_blank" href="https://ww2.ufps.edu.co/"><img id="ali" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/UFPS_Logo.png/240px-UFPS_Logo.png"></a>
+		<a target="_blank" href="http://www.mintic.gov.co"><img id="ali" src="https://apps.co/static/img/logos/mintic.svg"></a>
+		<a target="_blank" href="https://www.dnp.gov.co"><img id="ali" src="https://apps.co/static/img/logos/todosporunpais.svg"></a>
+		<a target="_blank" href="http://www.mintic.gov.co"><img id="ali" src="https://apps.co/static/img/logos/vivedigital.svg"></a>
+		<a target="_blank" href="http://www.colciencias.gov.co/"><img id="ali" src="https://upload.wikimedia.org/wikipedia/commons/9/98/ColCiencias_logo.png"></a>
+		<a target="_blank" href="https://apps.co/"><img id="ali" src="http://flotafacil.com/wp-content/uploads/2017/01/apps.png"></a>
+		<a target="_blank" href="http://www.cccucuta.org.co/"><img id="ali" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/C%C3%A1mara_de_comercio_de_C%C3%BAcuta.svg/2000px-C%C3%A1mara_de_comercio_de_C%C3%BAcuta.svg.png"></a>
+	</footer>
+</body>
+</html>

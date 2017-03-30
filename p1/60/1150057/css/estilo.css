@@ -1,0 +1,211 @@
+*{ margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; }
+
+header{       
+
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; }
+
+ul{ list-style: none; }
+
+ul > li { display: inline-block; }
+
+
+
+nav > ul > li {         
+
+	width: 10%;
+    height: 31px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 8px; }
+
+a {
+    color: #eee;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+
+	color: white;
+	font-size: 13px;
+
+
+}
+
+section.menu_nav {
+    width: 100%;
+    background-color: #aa1916;
+
+}
+
+
+.img_header{
+	width: 95%;
+	margin: auto;
+	/*overflow: hidden;*/
+}
+
+.img_header ul {
+	display: flex;
+	padding: 0;
+	padding-top: 10px;
+	/*width: 400%;*/
+
+	/*animation: cambio 20s infinite alternate linear;*/
+}
+
+.img_header li{
+	width: 100%;
+
+}
+
+.img_header img{
+	width: 100%;
+}
+
+.img_header li > picture > img{
+
+	width: 434px;
+    height: 169px;
+}
+
+
+@keyframes cambio {
+	0% { margin-left: 0; }
+	20% { margin-left: 0; }
+
+	25% { margin-left: -100%; }
+	45% { margin-left: -100%; }
+
+	50% { margin-left: -200%; }
+	70% { margin-left: -300%; }
+
+	75% { margin-left: -300%; }
+	100% { margin-left: -300%; }
+
+}
+
+.social_net {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.social_net a > picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social_net > a> picture > img {
+    width: 34%;
+    padding: 6px;
+    height: 100px;
+    border-radius: 56px;
+}
+
+.img_footer {
+    display: flex;
+    justify-content: center;
+    background-color: #E7E8E4;
+}
+
+.pie_pagina {
+    background-color: #222;
+    height: 43px;
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.img_footer ul > li > picture > img { 
+	width: 200px; 
+    height: 100px;
+    padding: 10px; }
+
+
+/* quinees somos*/
+.contenido{
+    background-color: #f3f3f3;
+    
+}
+
+
+
+.quees{
+    font-size: 27px;
+    width: 100%;
+    height: 38px;
+    background-color: #aa1916;
+    color: #eee;
+    border-top-left-radius: 86px;
+    border-top-right-radius: 141px;
+    border-bottom: 20px solid rgb(130, 27, 25);
+    padding-top: 7px;
+    left: 53px;
+    text-align: center;
+
+
+}
+
+p.parrafoq {
+    text-align: justify;
+    padding: 25px 268px 36px 260px;
+}
+
+h2.universidad {
+    text-align: center;
+    background-color: #aa1916;
+    color: #eee;
+    font-weight: 200;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 21px;
+
+}
+
+p.producto {
+    text-align: center;
+    width: 165px;
+    height: 75px;
+    background-color: #aa1916;
+    margin-left: 600px;
+    padding-top: 48px;
+    border-radius: 31px;
+    color: #eee;
+}
+
+ul.listaa {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+        margin-left: 25px;
+    margin-right: 10px;
+}
+
+.listaa >li {
+    background-color: #aa1916;
+    width: 13%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 41px;
+    text-align: center;
+    padding-top: 35px;
+    color: #eee;
+}
