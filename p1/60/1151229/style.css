@@ -1,0 +1,263 @@
+header{
+	background-color: #ddd;
+	height: 100px;
+	width: 100%;
+}
+body{
+	background-color: #ddd;
+}
+img{
+	height: 100px;
+	width: 200px;
+}
+ul{
+	list-style: none;
+}
+.inicio{
+	float: left;
+	padding: 5px;
+	list-style: none;
+	
+}
+.linkss{
+	float: right;
+	background-color: #336699;
+	display: block;
+	width: 100%;
+
+}
+.links{
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20PX;
+	
+}
+.link{
+	width: 100px;
+	text-align: center;
+	float: right;
+	padding: 5px;
+	list-style: none;
+	color:white;
+}
+div>ul>li>a{
+	color: inherit;
+	text-decoration: inherit;
+	display: block
+}
+footer{
+	background: #ddd;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+	clear: both;
+	height: 100%;
+}
+footer>img{
+	width: 70%;
+	height: 70%;
+}
+
+.link>ul{
+	display: none;
+	text-decoration: none;
+	list-style: none;
+	
+}
+.link:hover>ul {
+	
+	display: block;
+	line-height: 10px;
+	text-decoration: none;
+	color: white;
+
+ }
+ .link>ul>li>a{
+ 	color: inherit;
+	text-decoration: inherit;
+	display: block
+ }
+ .social{
+ 	width: 100%;
+ 	height: 50px;
+ }
+.redes{
+	height: 50px;
+	width: 50px;
+	padding-left: 2px;
+	border-width: 1px;
+	position: relative;
+	float: left;
+}
+.copyright{
+	float: right;
+	font-family: helvetica;
+	font:cursive;
+
+}
+.info{
+	height: 50px;
+	width: 100px;
+	float: right;
+}
+.mQue{
+	align-items: center;
+	text-align: center;
+}
+.mQue>div{
+	padding-top: 40px;
+}
+
+.mQue>h1{
+	font-family: Helvetica;
+}
+.mQue>div>ul{
+	text-align: left;
+}
+.mQue>div>ul>li{
+	padding-left: 400px;
+}
+.tutor{
+	height: 200px;
+	width: 200px;
+
+}
+.mEquip{
+	text-align: center;
+}
+.uEquip{
+	text-align: center;
+}
+.iconTutor{
+	text-align: center;
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+	padding: 5px;
+	margin-right: 75px;
+	background-color: inherit;
+	list-style: none;
+
+	
+}
+.Emp{
+	height: 200px;
+	width: 200px;
+}
+.Empp{
+	text-align: center;
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+	padding: 5px;
+	margin-right: 75px;
+	background-color: inherit;
+	list-style: none;
+}
+
+
+.dEmprend>ul>li>img{
+	margin-left: 100px;
+	width: 500px;
+	height: 400px;
+}
+.dEmprend>ul>li{
+	float: left;
+	text-align: center;
+}
+.dEmprend>ul>li>p{
+	width: 400px;
+	padding-left: 50px;
+	font: Helvetica, cursive;
+	font-size: 25px;
+}
+.noti{
+	padding-left: 15px;
+	width: 500px;
+	font-size: 15px;
+	font-family: helvetica;
+	text-align: justify;
+
+}
+.dNoti>ul>li>img{
+	margin-left: 100px;
+	width: 500px;
+	height: 400px;
+}
+.dNoti>ul>li{
+	float: left;
+	text-align: center;
+}
+.formu{
+	list-style: none;
+	padding-left: 533px;
+}
+.formulario{
+	
+	padding-top:40px;
+
+}
+.formulario input:focus, .formulario textarea:focus{
+	background-color: teal;
+
+}
+
+.error{
+	background-color: inherit;
+	border-radius: 5px;
+	color: white;
+	padding-left: 20px;
+	position: absolute;
+	display: none;
+}
+.error::before{
+	
+	color: white;
+	position: absolute;
+
+}
+.Contacto{
+	list-style: none;
+	padding: 12px;
+}
+
+
+.label{
+	padding-left: 450px;
+	padding-right: 15px;
+	
+
+}
+.label_especial{
+	padding-left:450px;
+	padding-right: 30px;
+	display: inline-block;
+}
+.input{
+	text-align: center;
+	width: 150px;
+
+
+}
+.formulario input:focus +.error{
+	display: inline;
+}
+.formulario input:required:valid + .error{
+	background-color: grey;
+}
+.formulario input:required:valid + .error{
+	color: white;
+}
+.Combo{
+	padding-left: 535px;
+}
+.Inicioo{
+	text-align: center;
+	align-items: center;
+}
+.titulo{
+	position: relative;
+	
+}

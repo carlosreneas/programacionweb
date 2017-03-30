@@ -1,0 +1,22 @@
+.caja_papa{
+	text-align: center;
+}
+
+.emp{
+	margin: 0 auto;
+	width: 600px;
+	height: auto;
+	background: #CDDC39;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+h4{
+	color: #fff;
+	font-size: 30pt;
+}
+
+.parr{
+	text-align: justify;
+}

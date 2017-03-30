@@ -1,0 +1,115 @@
+.arriba{
+	background: #0097A7;  /*Color VERDE CLARO*/
+	margin-top: 0;
+}
+body{
+    font-family: arial; /*Tipo de fuente*/
+    background: #fff;
+}
+
+.logo{
+	display: flex;
+    align-items: center; 
+    padding-left: 5px;
+}
+
+.logoapps, .logoufps{
+	padding-right: 30px;
+}
+
+.logoccc{
+	padding-right: 30%;
+}
+
+header{
+	background: #00BCD4;
+}
+
+h1{
+	color: #000;
+	text-align: center;
+}
+
+/*****************************/
+/*-----------MENU------------*/
+/*****************************/
+.menu{
+	list-style: none;
+	background: #fff;
+}
+
+.menu li{
+	display:inline-block;
+}
+
+.menu li a{
+	padding: 10px 30px;
+	display:inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #212121;  /*Color GRIS OSCURO*/
+	margin: 20px;
+}
+
+.menu li a:hover{
+	color: #0097A7;  /*Color MORADO MEDIO*/
+}
+
+
+/*****************************/
+/*-------CONTENEDOR----------*/
+/*****************************/
+.wrapper{
+	background: #fff;   /*Color CLOUD*/
+	text-align: center;
+	width: 70%;
+	margin: 10px auto 10px auto;
+	font-family: arial;
+} 
+
+
+/*****************************/
+/*----------FOOTER-----------*/
+/*****************************/
+footer{
+	text-align: center;
+	color: #b0b7b6;
+}
+
+.redes{
+	list-style: none;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.redes li{
+	display:inline-block;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.redes li a{
+	padding: 10px 30px;
+	display:inline-block;
+	color: #4276e5;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.redes li a:hover{
+	color: #86c1f4;   /*Color AZUL CLARO*/ 
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h{
+	margin: 0px 30px;
+}
+
+.apoyan{
+	margin-bottom: 50px;
+	color: #535054;
+	font-size: 22px;
+	background: #d6d9db;  /*Color GRIS CLARO*/ 
+	padding: 40px 0px;
+}
+

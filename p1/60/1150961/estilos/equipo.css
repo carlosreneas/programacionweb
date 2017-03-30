@@ -1,0 +1,47 @@
+
+.contendor_caja_padre{
+  width : 100%;
+  text-align: center;
+}
+
+.caja_padre{
+	background: #fff;  /*gris claro*/
+	height: auto;
+	max-width: 90%;
+	margin: auto;
+	display: flex;    /*Centrar las cajas hijas*/
+	flex-wrap: wrap;  /*Centrar*/
+	align-items: center;
+	justify-content: space-around;
+    padding: 0 1rem;
+	box-sizing: border-box;
+    margin : 0 auto;
+}
+
+.mentor1, .mentor2, .mentor3
+{
+	height: 500px;
+	width: 500px;
+	background: #CDDC39;  /*Morado medio*/
+	color: #000;
+	font-size: 25px;
+	position: relative;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+
+}
+
+h4{
+	color: #fff;
+	font-size: 20pt;
+}
+
+p{
+	font-size: 18px;
+	text-align: justify;
+}
+.cargo1, .cargo2, .cargo3{
+	text-align: center;
+}

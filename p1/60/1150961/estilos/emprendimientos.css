@@ -1,0 +1,44 @@
+.contendor_caja_padre{
+  width : 100%;
+  text-align: center;
+}
+
+.caja_padre{
+	background: #fff;
+	height: auto;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+    padding: 0 1rem;
+	box-sizing: border-box;
+    margin : 0 auto;
+}
+
+.luada, .proceder, .inlife, .abk, .integra, .servicenter,
+ .creditos, .bankar, .learning, .fokatom{
+	height: 310px;
+	width: 200px;
+	background: #CDDC39;
+	color: #212121;
+	font-size: 18px;
+	position: relative;
+    line-height: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 10px;
+ 
+}
+
+.imgsEmprendimiento{
+	width: 140px;
+}
+
+.e1:hover, .e2:hover, .e3:hover, .e4:hover, .e5:hover, .e6:hover, .e7:hover, .e8:hover,
+ .e9:hover, .e10:hover{
+	color: #757575;
+
+} 

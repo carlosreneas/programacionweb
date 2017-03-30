@@ -1,0 +1,22 @@
+.caja_papa{
+	text-align: center;
+}
+
+.emp{
+	margin: 0 auto;
+	width: 600px;
+	height: auto;
+	background: #CDDC39;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.info_noticia{
+	text-align: justify;
+}
+h4{
+    font-size: 40px;
+	color: #00BCD4;
+	font-weight: bold;
+}

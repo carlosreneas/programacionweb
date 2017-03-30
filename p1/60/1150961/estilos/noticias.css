@@ -1,0 +1,41 @@
+h4{
+    font-size: 50px;
+	color: #00BCD4;
+	font-weight: bold;
+}
+
+.contendor_caja_padre{
+  width : 100%;
+  text-align: center;
+}
+
+.caja_padre{
+	background: #fff;
+	height: auto;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+    padding: 0 1rem;
+	box-sizing: border-box;
+    margin : 0 auto;
+}
+
+.not1, .not2, .not3, .not4, .not5 {
+	height: 500px;
+	width: 600px;
+	background: #CDDC39;
+	color: #212121;
+	font-size: 18px;
+	position: relative;
+    line-height: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+

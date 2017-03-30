@@ -1,0 +1,59 @@
+h4{
+    font-size: 50px;
+	color: #00BCD4;
+	font-weight: bold;
+}
+
+form{
+	width: 50%;
+	border: 1px solid #ccc;
+	margin: auto;
+	padding: 20px;
+	border-radius: 7px;
+}
+
+input, textarea, select{
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+textarea{
+	max-height: 300px;
+	min-height: 100px;
+}
+
+input, textarea{
+	margin-bottom: 20px;
+	padding: 10px;
+	-webkit-box-sinzing: border box;
+	-moz-box-sinzing: border box;
+	box-sizing: content-box;
+	font-size: 17px;
+}
+
+input:focus, textarea:focus{
+	border: 1px solid #B2EBF2;
+}
+
+input[type="submit"]{
+    margin: bottom=0px;
+    background: #CDDC39;
+    color: white;
+    border: none;
+    width: 30%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  background: #c2ce4c;
+  color: #414141;
+}
+
+select{
+	margin-bottom: 20px;
+	width: 95%;
+	padding: 10px;
+}

@@ -1,0 +1,48 @@
+.info_convocatoria{
+	text-align: justify;
+	margin: 50px;
+	line-height: 20px;
+}
+
+.cita{
+	margin-bottom: 50px;
+	margin-top: 30px;
+	background: #CDDC39;
+	padding: 20px 0;
+	border-radius: 10px;
+}
+
+.autor{
+	text-align: left;
+	width: 100%;
+	display: block;
+	text-align: right;
+	padding-right: 2rem;
+	box-sizing: border-box;
+}
+
+.frase{
+    font-size: 21px;
+    color: #757575;
+}
+
+.conv{
+	font-size: 30px;
+	color: #00BCD4;  
+	text-align: center;
+}
+
+.info_conv{
+	font-size: 20px;
+}
+
+.ref1, .ref2{
+	color: #48ceb4;
+}
+.ref1:hover{
+    color:#CDDC39;  /*Verde claro*/
+}
+
+.ref2:hover{
+    color:#CDDC39;  /*Verde claro*/
+}

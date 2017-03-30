@@ -1,0 +1,46 @@
+.contendor_caja_padre{
+  width : 100%;
+  text-align: center;
+}
+
+.caja_padre{
+	background: #fff;
+	height: auto;
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+    padding: 0 1rem;
+	box-sizing: border-box;
+    margin : 0 auto;
+}
+
+.ali1, .ali2, .ali3, .ali4, .ali5, .ali6, .ali7, .ali8, .ali9, .ali10{
+	height: 280px;
+	width: 200px;
+	background: #CDDC39;
+	color: #000;
+	font-size: 18px;
+	position: relative;
+    line-height: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.ali1:hover, .ali2:hover, .ali3:hover, .ali4:hover, .ali9:hover, .ali5:hover, 
+       .ali6:hover, .ali7:hover, .ali8:hover, .ali10:hover {
+	background: #c2ce4c; 
+}
+p{
+	text-align: center;
+}
+
+h4{
+	font-size: 50px;
+	color: #00BCD4;
+	font-weight: bold;
+}

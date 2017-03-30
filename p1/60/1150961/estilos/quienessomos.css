@@ -1,0 +1,42 @@
+.titulo{
+	font-size: 50px;
+	color: #00BCD4;
+	font-weight: bold;
+}
+
+.descripcion{
+	font-size: 20px;
+}
+.apps, .unabb, .prog_ent, .oper{
+	font-size: 40px;
+	color: #00BCD4;
+}
+
+.prod{
+	font-size: 33px;
+	color: #76f2da;
+}
+.entrenamiento{
+    text-align: center;
+    list-style: square;
+}
+
+.u_fps, .c_cc{
+	color: #757575;
+	font-size: 30px;
+}
+
+.divEquipo{
+	width: 100%;
+	height: 40px;
+	background: #CDDC39;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 80px;
+}
+
+.equipo:hover{
+	color: #757575;
+	font-weight: bold;
+
+}
