@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: helvetica,ARIAL,SANS-SERIF;
+	color: #999;
+	background:#FFFACD;
+
+
+
+}
+
+
+header{ 
+	background-color: #ddd;
+	height: 120px;
+
+
+}
+
+html{
+	background-color: #FFFACD;
+}

@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 10px; 
+}
+
+.logo img{
+	height: 120px;
+}
+
+.logo{
+	height: 120px;
+	padding-left: 20px;
+}
+
+.main{
+	min-height: 200px;
+	background-color: #dfdfdf;
+}
+
+.main article picture{
+	width: 100px;
+	display: block;
+	margin: auto;
+}
+
+.main article picture img{
+	margin: auto;
+}
+
+.main-r{
+	width: 30%;
+}
+
+.content{
+	width: 80%;
+	margin: 0 auto;
+	float: left;
+}
+
+.img-font{
+	width: 100%;
+}
+
+header{
+	background-color: #ddd;
+	height: 120px;
+}
+
+section h1{
+	font-family: 'Jim Nightshade', cursive;
+	text-align: center;
+}
+
+nav{
+	float: right;
+	background-color: #336699;
+	display: block;
+	width: 100%;
+}
+
+nav p{
+	color: black;
+}
+
+nav span{
+	line-height: 40px;
+	margin-left: 10px;
+	color: black;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul a>li{
+	text-decoration: none;
+	color: black;
+	margin-right: 10px;
+}
+
+nav ul li>a:hover{
+	
+}
+
+footer{
+	text-align: center;
+	background-color: lightgray;
+	padding: 20px;
+	margin-top: 40px;
+	clear: both; 
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+
+article{
+	margin: 10px;
+	background-color: white;
+}
+
+article p{
+	margin: 5px;
+}
+
+section aside{
+	display:block;
+	vertical-align:top;
+}
+
+aside{
+    width:170px;
+    float: right;
+}
+
+aside p{
+	margin: 5px;
+}
+
+section picture{
+	width: 500px;
+	height: 100%;
+	text-align: center;
+	padding-left: 180px;
+}
+
+section h1{
+	padding-top:10px;
+}
+
+#ufpslink{
+	text-decoration: none;
+}
+
+section main{
+	float: left;
+	clear: left;
+	width: 100%;
+}
