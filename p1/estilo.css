@@ -2,12 +2,12 @@ body{
 	font-family: helvetica;
 }
 
-.main-left{
+#main-left{
 	float: left;
 	width: 60%;
 }
 
-.main-rigth{
+#main-rigth{
 	float: left;
 	width: 40%;
 }
