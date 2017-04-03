@@ -1,0 +1,1 @@
+El diseño no esta bien distribuido, el javascript no esta funcionando, no permite ocultar la imagen
