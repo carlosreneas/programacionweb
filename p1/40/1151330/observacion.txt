@@ -1,0 +1,4 @@
+Crea los tres archivos
+Cumple con la estructura HTML del ejercicio
+Implementa CSS pero no es el correcto, debe mejorar la distribución de las divisiones, no vincula imagen de Font
+A nivel de javascript no esta ocultando la división solicitada
