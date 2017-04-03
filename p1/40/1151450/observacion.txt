@@ -1,0 +1,5 @@
+El diseño esta mal distribuido, las divisiones no estan bien ubicadas
+No realiza el proceso de ocultar la división
+La imagen del encabezado no se muestra
+El archivo javascript esta vacio
+El css en los botones esta regular
