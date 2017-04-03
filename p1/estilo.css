@@ -4,11 +4,11 @@ body{
 
 .main-left{
 	float: left;
-	width: 60%;
+	width: 55%;
 }
 
 .main-rigth{
 	float: left;
-	width: 40%;
+	width: 45%;
 	background-color: #eee;
 }
